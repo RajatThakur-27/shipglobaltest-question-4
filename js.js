@@ -21,7 +21,6 @@ function checkGuess() {
         return;
     }
 
-    attemptsLeft--;
     attemptsElement.textContent = `You have ${attemptsLeft} chances`;
 
     if (userGuess === randomNumber) {
